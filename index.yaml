@@ -4,8 +4,8 @@ entries:
   - annotations:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
-    appVersion: 3.4.1
-    created: "2023-09-05T07:20:03.319105285Z"
+    appVersion: 3.5.0
+    created: "2023-09-05T09:51:24.728953271Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -22,7 +22,7 @@ entries:
       repository: https://charts.apiseven.com
       version: 0.11.7
     description: A Helm chart for Apache APISIX v3
-    digest: 1c6901bc81c82f283119d4231a45b374805cfb1a3ddf7d9129af59f6fcdb615b
+    digest: 724cf8848d81492c9a1cdc65852271ab566190903a488a20b08ac449d6741968
     icon: https://apache.org/logos/res/apisix/apisix.png
     maintainers:
     - name: tao12345666333
@@ -31,43 +31,6 @@ entries:
     - https://github.com/apache/apisix-helm-chart
     type: application
     urls:
-    - https://github.com/AlinsRan/apisix-helm-chart/releases/download/apisix-1.5.1/apisix-1.5.1.tgz
-    version: 1.5.1
-  apisix-dashboard:
-  - apiVersion: v2
-    appVersion: 3.0.0
-    created: "2023-09-05T07:20:03.490400426Z"
-    description: A Helm chart for Apache APISIX Dashboard
-    digest: ada51186c2982e913e91861eb84215eb1501a9c678390c47aba51a0d07648658
-    icon: https://apache.org/logos/res/apisix/apisix.png
-    maintainers:
-    - name: tao12345666333
-    name: apisix-dashboard
-    type: application
-    urls:
-    - https://github.com/AlinsRan/apisix-helm-chart/releases/download/apisix-dashboard-0.8.1/apisix-dashboard-0.8.1.tgz
-    version: 0.8.1
-  apisix-ingress-controller:
-  - annotations:
-      artifacthub.io/prerelease: "false"
-    apiVersion: v2
-    appVersion: 1.6.1
-    created: "2023-09-05T07:20:03.668698304Z"
-    description: Apache APISIX Ingress Controller for Kubernetes
-    digest: 2feef3717c8a6b83b92418b3e2decf6c3758bccd6ec973da8ae83ef71ea3419b
-    icon: https://apache.org/logos/res/apisix/apisix.png
-    keywords:
-    - ingress
-    - apisix
-    - nginx
-    - crd
-    maintainers:
-    - name: tao12345666333
-    name: apisix-ingress-controller
-    sources:
-    - https://github.com/apache/apisix-helm-chart
-    type: application
-    urls:
-    - https://github.com/AlinsRan/apisix-helm-chart/releases/download/apisix-ingress-controller-0.11.7/apisix-ingress-controller-0.11.7.tgz
-    version: 0.11.7
-generated: "2023-09-05T07:20:03.668704705Z"
+    - https://github.com/AlinsRan/apisix-helm-chart/releases/download/apisix-1.6.0/apisix-1.6.0.tgz
+    version: 1.6.0
+generated: "2023-09-05T09:51:24.728965971Z"
