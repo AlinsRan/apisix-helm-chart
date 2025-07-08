@@ -1,13 +1,46 @@
 apiVersion: v1
 entries:
+  apisix:
+  - annotations:
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: 3.13.0
+    created: "2025-07-08T01:53:52.150311451Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: https://charts.bitnami.com/bitnami
+      version: 9.7.3
+    - alias: dashboard
+      condition: dashboard.enabled
+      name: apisix-dashboard
+      repository: https://charts.apiseven.com
+      version: 0.8.2
+    - alias: ingress-controller
+      condition: ingress-controller.enabled
+      name: apisix-ingress-controller
+      repository: https://charts.apiseven.com
+      version: 1.0.1
+    description: A Helm chart for Apache APISIX v3
+    digest: 3d683696fbfd1f23ec93e014e6125554a75b2eae5855767bc6980158da4103f0
+    icon: https://apache.org/logos/res/apisix/apisix.png
+    maintainers:
+    - name: tao12345666333
+    name: apisix
+    sources:
+    - https://github.com/apache/apisix-helm-chart
+    type: application
+    urls:
+    - https://github.com/AlinsRan/apisix-helm-chart/releases/download/apisix-2.11.1/apisix-2.11.1.tgz
+    version: 2.11.1
   apisix-ingress-controller:
   - annotations:
       artifacthub.io/prerelease: "true"
     apiVersion: v2
     appVersion: 2.0.0-rc1
-    created: "2025-07-02T00:22:45.717133615Z"
+    created: "2025-07-08T01:53:52.254758708Z"
     description: Apache APISIX Ingress Controller for Kubernetes
-    digest: 94afc19ae240356541978df6bb3513fab9d39b2fcd12836e27901a5c71eb1767
+    digest: af1f89eae327b879344a0548bbf0a970470ca264db20f00f121ee2ca0a4448b2
     icon: https://apache.org/logos/res/apisix/apisix.png
     keywords:
     - ingress
@@ -21,6 +54,6 @@ entries:
     - https://github.com/apache/apisix-helm-chart
     type: application
     urls:
-    - https://github.com/AlinsRan/apisix-helm-chart/releases/download/apisix-ingress-controller-1.0.0/apisix-ingress-controller-1.0.0.tgz
-    version: 1.0.0
-generated: "2025-07-02T00:22:45.717142532Z"
+    - https://github.com/AlinsRan/apisix-helm-chart/releases/download/apisix-ingress-controller-1.0.1/apisix-ingress-controller-1.0.1.tgz
+    version: 1.0.1
+generated: "2025-07-08T01:53:52.254767595Z"
