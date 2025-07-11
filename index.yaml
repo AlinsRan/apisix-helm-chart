@@ -5,7 +5,7 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 3.13.0
-    created: "2025-07-08T01:53:52.150311451Z"
+    created: "2025-07-11T01:35:04.928007438Z"
     dependencies:
     - condition: etcd.enabled
       name: etcd
@@ -22,7 +22,7 @@ entries:
       repository: https://charts.apiseven.com
       version: 1.0.1
     description: A Helm chart for Apache APISIX v3
-    digest: 3d683696fbfd1f23ec93e014e6125554a75b2eae5855767bc6980158da4103f0
+    digest: e88e62cbb319ac2ed6e58fde4ce600c05e3bd33f4c1dc2aade256cd4b32fd14f
     icon: https://apache.org/logos/res/apisix/apisix.png
     maintainers:
     - name: tao12345666333
@@ -33,27 +33,4 @@ entries:
     urls:
     - https://github.com/AlinsRan/apisix-helm-chart/releases/download/apisix-2.11.1/apisix-2.11.1.tgz
     version: 2.11.1
-  apisix-ingress-controller:
-  - annotations:
-      artifacthub.io/prerelease: "true"
-    apiVersion: v2
-    appVersion: 2.0.0-rc1
-    created: "2025-07-08T01:53:52.254758708Z"
-    description: Apache APISIX Ingress Controller for Kubernetes
-    digest: af1f89eae327b879344a0548bbf0a970470ca264db20f00f121ee2ca0a4448b2
-    icon: https://apache.org/logos/res/apisix/apisix.png
-    keywords:
-    - ingress
-    - apisix
-    - nginx
-    - crd
-    maintainers:
-    - name: tao12345666333
-    name: apisix-ingress-controller
-    sources:
-    - https://github.com/apache/apisix-helm-chart
-    type: application
-    urls:
-    - https://github.com/AlinsRan/apisix-helm-chart/releases/download/apisix-ingress-controller-1.0.1/apisix-ingress-controller-1.0.1.tgz
-    version: 1.0.1
-generated: "2025-07-08T01:53:52.254767595Z"
+generated: "2025-07-11T01:35:04.928016725Z"
